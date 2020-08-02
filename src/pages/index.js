@@ -4,9 +4,11 @@ import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
+import { DEFAULT_IMAGES } from '../components/Gallery/constants/defaultImages'
+
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Agustin Annacondia'
+  const siteDescription = 'Descripcion'
 
   return (
     <Layout>
@@ -18,60 +20,129 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
-            </h2>
+            <h2>Sobre mi</h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            Desde chico me apasioné por la resolución de problemas, participando
+            en distintas Olimpiadas de Matematica. Gracias a eso, a mi pasión
+            por la computación y a mi curiosidad por descubrir como funcionan
+            las cosas es que decidí estudiar Ingeniería en Informática.
+            <br />
+            <br />
+            Hoy con 23 años me encuentro capacitandome en el área de desarrollo
+            web, principalmente front-end, la cual me llama mucho la atención.
+            Mientras tanto, finalizo mis estudios y trabajo como desarrollador
+            en una empresa de seguros.
+            <br />
+            <br />
+            Me gustaría trabajar en diversos proyectos que me ayuden a mejorar
+            aún mas mis habilidades, ya que considero que la
+            mejor forma de aprender es mediante la experiencia.
           </p>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul>
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
-
-          <Gallery />
-
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
-            </li>
-          </ul>
+          <h2>Conocimientos</h2>
+          <p>
+          <span role="img" aria-label="white circle emoji">&#9898;</span> Desarrollo Front-End con{' '}
+            <strong>HTML, CSS, JavaScript, Angular y ReactJS.</strong>
+            <br />
+            <span role="img" aria-label="white circle emoji">&#9898;</span> <strong>ReactJS:</strong> React Core. Hooks. Redux y API Context. Styled
+            Components. Consumo de API's REST con fetch y Axios. Unit testing
+            con Jest.
+            <br />
+            <span role="img" aria-label="black circle emoji">&#9899;</span> Desarrollo Back-End con <strong>NodeJS y C#.</strong>
+            <br />
+            <span role="img" aria-label="black circle emoji">&#9899;</span> Experiencia en bases de datos relacionales{' '}
+            <strong>(SQL Server)</strong> y no relacionales{' '}
+            <strong>(MongoDB).</strong>
+            <br />
+            <span role="img" aria-label="blue circle emoji">&#128309;</span> Manejo de terminal de comandos. Uso de controlador de versiones Git/GitHub. 
+          </p>
         </section>
 
         <section id="three">
-          <h2>Get In Touch</h2>
+          <h2>Proyectos</h2>
+          <Gallery images={DEFAULT_IMAGES} />
+        </section>
+
+        <section id="four">
+          <h2>Experiencia</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            Trabajo como desarrollador de software en{' '}
+            <strong>
+              <a
+                href="https://www.boston.com.ar/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Boston Seguros
+              </a>
+            </strong>{' '}
+            desde abril de 2019. En los proyectos que me tocó participar, tuve que crear nuevos modulos para la web (hechos en ASP.NET MVC) asi como tambien mantener algunos ya existentes. En los mismos tuve que aplicar mis conocimientos de HTML, CSS, JavaScript y C#.
+            <br/>
+            <br/>
+            Tambien tuve que crear y mantener servicios de Windows, Web Services, consumir APIs y Web Services externos, interactuar con Web Services de AFIP y trabajar con la base de datos del sistema, tanto en entorno de desarrollo como de producción.
           </p>
+        </section>
+
+        <section id="five">
+          <h2>Estudios</h2>
+          <p>
+            - Técnico Universitario en Desarrollo de Software -{' '}
+            <strong>
+              <a
+                href="https://www.unlam.edu.ar/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                UNLaM.
+              </a>
+            </strong>
+            <br />- Ingeniería en Informática (4° año en curso) -{' '}
+            <strong>
+              <a
+                href="https://www.unlam.edu.ar/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                UNLaM.
+              </a>
+            </strong>
+            <br />- Carrera de Desarrollo Front-End (en curso) -{' '}
+            <strong>
+              <a
+                href="https://www.coderhouse.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CoderHouse.
+              </a>
+            </strong>
+            <br />- First Certificate in English B2 -{' '}
+            <strong>Cambridge English</strong>
+          </p>
+          <Gallery />
+        </section>
+
+        <section id="six">
+          <h2>Contacto</h2>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
+              <form
+                name="contact"
+                method="post"
+                action="#"
+                data-netlify="true"
+                data-netlify-honeypot="botfield"
+              >
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
                       type="text"
                       name="name"
                       id="name"
-                      placeholder="Name"
+                      placeholder="Nombre"
                     />
                   </div>
                   <div className="6u 12u$(xsmall)">
@@ -86,14 +157,15 @@ const HomeIndex = () => {
                     <textarea
                       name="message"
                       id="message"
-                      placeholder="Message"
+                      placeholder="Mensaje"
                       rows="4"
                     ></textarea>
                   </div>
                 </div>
+                <input type="hidden" name="form'name" value="contact" />
                 <ul className="actions" style={{ marginTop: 30 }}>
                   <li>
-                    <input type="submit" value="Send Message" />
+                    <input type="submit" value="Enviar" />
                   </li>
                 </ul>
               </form>
@@ -102,25 +174,25 @@ const HomeIndex = () => {
               <ul className="labeled-icons">
                 <li>
                   <h3 className="icon fa-home">
-                    <span className="label">Address</span>
+                    <span className="label">Direccion</span>
                   </h3>
-                  1234 Somewhere Rd.
-                  <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
+                  Buenos Aires, Argentina
                 </li>
                 <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  000-000-0000
+                  <a href="http://wa.link/ik2e70">
+                    <h3 className="icon fa-mobile">
+                      <span className="label">Telefono</span>
+                    </h3>
+                    +54 11 6649-7148
+                  </a>
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="mailto:agustinannacondia@gmail.com">
+                    agustinannacondia@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>

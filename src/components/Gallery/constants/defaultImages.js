@@ -1,58 +1,58 @@
-import full01 from '../../../assets/images/fulls/01.jpg'
-import full02 from '../../../assets/images/fulls/02.jpg'
-import full03 from '../../../assets/images/fulls/03.jpg'
-import full04 from '../../../assets/images/fulls/04.jpg'
-import full05 from '../../../assets/images/fulls/05.jpg'
-import full06 from '../../../assets/images/fulls/06.jpg'
-import thumb02 from '../../../assets/images/thumbs/02.jpg'
-import thumb01 from '../../../assets/images/thumbs/01.jpg'
-import thumb03 from '../../../assets/images/thumbs/03.jpg'
-import thumb04 from '../../../assets/images/thumbs/04.jpg'
-import thumb05 from '../../../assets/images/thumbs/05.jpg'
-import thumb06 from '../../../assets/images/thumbs/06.jpg'
+import full_followme from '../../../assets/images/fulls/followme.jpg'
+import full_organizate from '../../../assets/images/fulls/organizate.jpg'
+import full_glosh from '../../../assets/images/fulls/glosh.jpg'
+import full_cotizador from '../../../assets/images/fulls/cotizador.jpg'
+import full_presupuestos from '../../../assets/images/fulls/presupuestos.jpg'
+import full_citas from '../../../assets/images/fulls/citas.jpg'
+import thumb_followme from '../../../assets/images/thumbs/followme.jpg'
+import thumb_organizate from '../../../assets/images/thumbs/organizate.jpg'
+import thumb_glosh from '../../../assets/images/thumbs/glosh.jpg'
+import thumb_cotizador from '../../../assets/images/thumbs/cotizador.jpg'
+import thumb_presupuestos from '../../../assets/images/thumbs/presupuestos.jpg'
+import thumb_citas from '../../../assets/images/thumbs/citas.jpg'
 
 
 export const DEFAULT_IMAGES = [
     {
       id: '1',
-      source: full01,
-      thumbnail: thumb01,
-      caption: 'Photo 1',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+      source: full_followme,
+      thumbnail: thumb_followme,
+      caption: 'FollowMe',
+      description: 'Red social para compartir fotografías con otros usuarios.',
     },
     {
       id: '2',
-      source: full02,
-      thumbnail: thumb02,
-      caption: 'Photo 2',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+      source: full_organizate,
+      thumbnail: thumb_organizate,
+      caption: 'Organizate',
+      description: 'Sitio para organizar tareas y proyectos.',
     },
     {
       id: '3',
-      source: full03,
-      thumbnail: thumb03,
-      caption: 'Photo 3',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+      source: full_glosh,
+      thumbnail: thumb_glosh,
+      caption: 'Glosh',
+      description: 'Sitio para escuchar musica, con albums y playlists.',
     },
     {
       id: '4',
-      source: full04,
-      thumbnail: thumb04,
-      caption: 'Photo 4',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+      source: full_cotizador,
+      thumbnail: thumb_cotizador,
+      caption: 'Cotizador',
+      description: 'Sitio que emula la cotizacion del seguro de tu auto.',
     },
     {
       id: '5',
-      source: full05,
-      thumbnail: thumb05,
-      caption: 'Photo 5',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+      source: full_presupuestos,
+      thumbnail: thumb_presupuestos,
+      caption: 'Presupuestos',
+      description: 'Sitio que permite crear presupuestos y organizar gastos.',
     },
     {
       id: '6',
-      source: full06,
-      thumbnail: thumb06,
-      caption: 'Photo 6',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+      source: full_citas,
+      thumbnail: thumb_citas,
+      caption: 'Citas',
+      description: 'Sitio que permite registrar y administrar citas.',
     }
 ]
