@@ -20,11 +20,11 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>Sobre mi</h2>
+            <h2>Sobre mí</h2>
           </header>
           <p>
             Desde chico me apasioné por la resolución de problemas, participando
-            en distintas Olimpiadas de Matematica. Gracias a eso, a mi pasión
+            en distintas Olimpíadas de Matemática. Gracias a eso, a mi pasión
             por la computación y a mi curiosidad por descubrir como funcionan
             las cosas es que decidí estudiar Ingeniería en Informática.
             <br />
@@ -48,19 +48,39 @@ const HomeIndex = () => {
               &#9898;
             </span>{' '}
             Desarrollo Front-End con{' '}
-            <strong>HTML, CSS, JavaScript, Angular y ReactJS.</strong>
+            <strong>HTML5, CSS3, JavaScript, Angular y ReactJS.</strong>
             <br />
             <span role="img" aria-label="white circle emoji">
               &#9898;
             </span>{' '}
-            <strong>ReactJS:</strong> React Core. Hooks. Redux y API Context.
-            Styled Components. Consumo de API's REST con fetch y Axios. Unit
-            testing con Jest.
+            <strong>ReactJS:</strong> React Core. Custom Hooks. Redux y API
+            Context. Styled Components. Consumo de API's REST con fetch y{' '}
+            <strong>Axios</strong>. Unit testing con <strong>Jest</strong>.
+            <br />
+            <span role="img" aria-label="white circle emoji">
+              &#9898;
+            </span>{' '}
+            Manejo de preprocesadores de CSS: <strong>SASS</strong> y{' '}
+            <strong>LESS</strong>.
+            <br />
+            <span role="img" aria-label="white circle emoji">
+              &#9898;
+            </span>{' '}
+            Uso de frameworkss CSS como <strong>Bootstrap</strong>,{' '}
+            <strong>Tailwind</strong> y <strong>Bulma</strong>.
             <br />
             <span role="img" aria-label="black circle emoji">
               &#9899;
             </span>{' '}
-            Desarrollo Back-End con <strong>NodeJS y C#.</strong>
+            Desarrollo Back-End con <strong>NodeJS</strong> y{' '}
+            <strong>C#</strong>. Conexiones con base de datos, formas de
+            autenticación.
+            <br />
+            <span role="img" aria-label="black circle emoji">
+              &#9899;
+            </span>{' '}
+            Creación de API's REST para proyectos personales hechos con el MERN
+            Stack
             <br />
             <span role="img" aria-label="black circle emoji">
               &#9899;
@@ -72,7 +92,26 @@ const HomeIndex = () => {
             <span role="img" aria-label="blue circle emoji">
               &#128309;
             </span>{' '}
-            Terminal de comandos. Git/GitHub. Estructuras de datos y algoritmos. Patrones de diseño.  
+            Manejo de terminal de comandos. Uso de controlador de versiones
+            Git/GitHub, asi como también TFS.
+            <br />
+            <span role="img" aria-label="blue circle emoji">
+              &#128309;
+            </span>{' '}
+            Manejo de Linux, Shell scripts: Bash, Powershell.
+            <br />
+            <span role="img" aria-label="blue circle emoji">
+              &#128309;
+            </span>{' '}
+            Conocimiento de metodologías de trabajo, tanto ágiles como
+            tradicionales.
+            <br />
+            <span role="img" aria-label="blue circle emoji">
+              &#128309;
+            </span>{' '}
+            Conocimiento de patrones de diseño y arquitectura, buenas prácticas,
+            conceptos relacionados a OOP.
+            <br />
           </p>
         </section>
 
@@ -89,16 +128,16 @@ const HomeIndex = () => {
                 Boston Seguros
               </a>
             </strong>{' '}
-            desde abril de 2019. En los proyectos que me tocó participar, tuve
-            que crear nuevos modulos para la web (hechos en ASP.NET MVC) asi
-            como tambien mantener algunos ya existentes. En los mismos tuve que
-            aplicar mis conocimientos de HTML, CSS, JavaScript y C#.
+            desde abril de 2019. En los proyectos que participé, creé nuevos
+            módulos para la web (hechos en ASP.NET MVC) y me encargué de llevar
+            el mantenimiento de otros ya existentes. En los mismos apliqué mis
+            conocimientos de HTML, CSS, JavaScript, jQuery y C#.
             <br />
             <br />
-            Tambien tuve que crear y mantener servicios de Windows, Web
-            Services, consumir APIs y Web Services externos, interactuar con Web
-            Services de AFIP y trabajar con la base de datos del sistema, tanto
-            en entorno de desarrollo como de producción.
+            También debí crear y mantener servicios de Windows, Web Services,
+            consumir APIs y Web Services externos, interactuar con Web Services
+            de AFIP, trabajar con la base de datos del sistema (SQL), tanto en
+            entorno de desarrollo como de producción.
           </p>
         </section>
 
@@ -141,17 +180,15 @@ const HomeIndex = () => {
           <Gallery />
         </section>
 
-
         <section id="five">
           <h2>Proyectos</h2>
           <Gallery images={DEFAULT_IMAGES} />
         </section>
 
-
         <section id="six">
           <h2>Contacto</h2>
           <div className="row">
-            <div className="8u 12u$(small)">
+            {/* <div className="8u 12u$(small)">
               <form
                 name="Contacto"
                 method="POST"
@@ -185,7 +222,7 @@ const HomeIndex = () => {
                     ></textarea>
                   </div>
                 </div>
-                <input type="hidden" name="form'name" value="contact" />
+                <input type="hidden" name="form-name" value="Contacto" />
                 <ul className="actions" style={{ marginTop: 30 }}>
                   <li>
                     <input type="submit" value="Enviar" />
@@ -193,7 +230,7 @@ const HomeIndex = () => {
                 </ul>
                 <div data-netlify-recaptcha="true"></div>
               </form>
-            </div>
+            </div> */}
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>
