@@ -1,40 +1,23 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import Carousel, { Modal, ModalGateway } from 'react-images'
 import GalleryItem from './GalleryItem'
 
 const Gallery = ({ images }) => {
-  const [lightboxIsOpen, setLightboxIsOpen] = useState(false)
-  const [selectedIndex, setSelectedIndex] = useState(0)
-
-  const toggleLightbox = useCallback(selectedIndex => {
-    setLightboxIsOpen(!lightboxIsOpen)
-    setSelectedIndex(selectedIndex)
-  }, [lightboxIsOpen])
-
   return (
-    <div>
+    <div className="Gallery">
       {images && (<div className="row">
         {images.map((obj, i) => {
         return (<GalleryItem
           id={obj.id}
+          name={obj.name}
           source={obj.source}
-          thumbnail={obj.thumbnail}
           caption={obj.caption}
           description={obj.description}
-          position={i}
-          toggleLightbox={toggleLightbox}
+          tools={obj.tools}
         />); 
         })}
         </div>
       )}
-      <ModalGateway>
-        {lightboxIsOpen && (
-          <Modal onClose={toggleLightbox}>
-            <Carousel currentIndex={selectedIndex} views={images} />
-          </Modal>
-        )}
-      </ModalGateway>
     </div>
   )
 }
