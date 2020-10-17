@@ -156,7 +156,6 @@ const HomeIndex = () => {
                 name="Contacto"
                 method="POST"
                 action="#"
-                data-netlify-recaptcha="true"
                 data-netlify="true"
               >
                 <div className="row uniform 50%">
@@ -190,10 +189,8 @@ const HomeIndex = () => {
                   <li>
                     <input type="submit" value="Enviar" />
                   </li>
-                  <li>
-                    <div data-netlify-recaptcha="true"></div>
-                  </li>
                 </ul>
+                  <div data-netlify-recaptcha="true"></div>
               </form>
             </div>
             <div className="4u 12u$(small)">
