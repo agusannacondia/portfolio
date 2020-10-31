@@ -13,7 +13,7 @@ import { Link } from 'gatsby'
 
 const App = () => {
   const siteTitle = 'Agustin Annacondia'
-  const siteDescription = 'Descripcion'
+  const siteDescription = 'Software developer and Software Engineering student'
 
   useEffect(() => {
     localStorage.setItem('language', 'en')

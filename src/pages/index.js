@@ -13,7 +13,8 @@ import { Link } from 'gatsby'
 
 const App = () => {
   const siteTitle = 'Agustin Annacondia'
-  const siteDescription = 'Descripcion'
+  const siteDescription =
+    'Desarrollador de software y estudiante de Ingeniería en Informática'
 
   useEffect(() => {
     localStorage.setItem('language', 'es')
