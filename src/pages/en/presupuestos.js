@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 
 const Presupuestos = () => (
   <Layout>
@@ -19,7 +19,7 @@ const Presupuestos = () => (
         </a>
       </span> */}
       <div className="Project__Body">
-        <p className="Project__Description">Sitio en construcción.</p>
+        <p className="Project__Description">Work in progress.</p>
       </div>
     </div>
   </Layout>

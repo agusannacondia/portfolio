@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../components/layout'
-import screenshot from '../assets/images/mylocations.png'
-import html5 from '../assets/images/tools/html5.png'
-import css3 from '../assets/images/tools/css3.png'
-import javascript from '../assets/images/tools/javascript.png'
-import react from '../assets/images/tools/react.png'
-import reactbootstrap from '../assets/images/tools/reactbootstrap.png'
+import Layout from '../../components/layout'
+import screenshot from '../../assets/images/mylocations.png'
+import html5 from '../../assets/images/tools/html5.png'
+import css3 from '../../assets/images/tools/css3.png'
+import javascript from '../../assets/images/tools/javascript.png'
+import react from '../../assets/images/tools/react.png'
+import reactbootstrap from '../../assets/images/tools/reactbootstrap.png'
 
 const MyLocations = () => (
   <Layout>
@@ -31,8 +31,8 @@ const MyLocations = () => (
           alt="My locations screenshot"
         ></img>
         <p className="Project__Description">
-          Aplicación Web hecha con React que permite agregar y visualizar
-          distintas ubicaciones en un mapa. Para el mapa usa la API de{' '}
+          Web application made with React that allows adding and viewing
+          different locations on a map. For the map I use the{' '}
           <strong>
             <a
               href="https://cloud.google.com/maps-platform?hl=es"
@@ -40,8 +40,8 @@ const MyLocations = () => (
             >
               Google Maps Platform
             </a>
-          </strong>
-          . Además, usa efectos de{' '}
+          </strong>{' '}
+          API. Additionally, it uses{' '}
           <strong>
             <a
               href="https://daniel-lundin.github.io/react-dom-confetti/"
@@ -49,14 +49,14 @@ const MyLocations = () => (
             >
               React DOM Confetti
             </a>
-          </strong>
-          , componentes de{' '}
+          </strong>{' '}
+          effects,{' '}
           <strong>
             <a href="https://react-bootstrap.github.io/" target="__blank">
               React Bootstrap
             </a>
           </strong>{' '}
-          y permite elementos arrastrables con{' '}
+          components and allows draggable elements with{' '}
           <strong>
             <a
               href="https://www.npmjs.com/package/react-draggable"

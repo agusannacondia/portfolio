@@ -1,12 +1,12 @@
 import React from 'react'
-import Layout from '../components/layout'
-import screenshot from '../assets/images/portfolio.png'
-import html5 from '../assets/images/tools/html5.png'
-import css3 from '../assets/images/tools/css3.png'
-import javascript from '../assets/images/tools/javascript.png'
-import sass from '../assets/images/tools/sass.png'
-import gatsby from '../assets/images/tools/gatsby.png'
-import react from '../assets/images/tools/react.png'
+import Layout from '../../components/layout'
+import screenshot from '../../assets/images/portfolio.png'
+import html5 from '../../assets/images/tools/html5.png'
+import css3 from '../../assets/images/tools/css3.png'
+import javascript from '../../assets/images/tools/javascript.png'
+import sass from '../../assets/images/tools/sass.png'
+import gatsby from '../../assets/images/tools/gatsby.png'
+import react from '../../assets/images/tools/react.png'
 
 const Portfolio = () => (
   <Layout>
@@ -26,13 +26,13 @@ const Portfolio = () => (
         <img
           src={screenshot}
           className="Project__Image"
-          alt="Portfolio screenshot"
+          alt="My portfolio screenshot"
         ></img>
         <p className="Project__Description">
-          Mi portfolio personal. Fue hecho con Gatsby, un framework basado en
-          React para generar sitios web estáticos que se renderizan del lado del
-          servidor (SSR), por lo cual son mas rápidos y permiten usar SEO. Para
-          los estilos usé el preprocesador de CSS Sass.
+          My personal portfolio. It was made with Gatsby, a React framework to
+          generate static websites that are server-side rendered (SSR), for
+          which they are faster and allow the use of SEO. For the styles I used
+          the CSS preprocessor Sass.
         </p>
         <div className="Project__Tools">
           <img src={html5} className="Project__Tool" alt="HTML5"></img>

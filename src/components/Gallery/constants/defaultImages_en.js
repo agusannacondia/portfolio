@@ -15,458 +15,460 @@ import full_citas from '../../../assets/images/fulls/citas.jpg'
 const colors = {
   angular: {
     color1: '#e23237',
-    color2: '#F9B3B4'
+    color2: '#F9B3B4',
   },
   bootstrap: {
     color1: '#563d7c',
-    color2: '#563d7c'
+    color2: '#563d7c',
   },
   css3: {
     color1: '#264de5',
-    color2: '#6E82CF'
+    color2: '#6E82CF',
   },
   express: {
     color1: '#363636',
-    color2: '#817E7E'
+    color2: '#817E7E',
   },
   gatsby: {
     color1: '#74309d',
-    color2: '#74309d'
+    color2: '#74309d',
   },
   html5: {
     color1: '#ff4e1d',
-    color2: '#ff4e1d'
+    color2: '#ff4e1d',
   },
   javascript: {
     color1: '#eaca32',
-    color2: '#eaca32'
+    color2: '#eaca32',
   },
   mongodb: {
     color1: '#4f9545',
-    color2: '#74BB6B'
+    color2: '#74BB6B',
   },
   nodejs: {
     color1: '#00ac3b',
-    color2: '#44C971'
+    color2: '#44C971',
   },
   react: {
     color1: '#61dbfc',
-    color2: '#61dbfc'
+    color2: '#61dbfc',
   },
   reactbootstrap: {
     color1: '#41e0fd',
-    color2: '#4FA7B7'
+    color2: '#4FA7B7',
   },
   sass: {
     color1: '#e23237',
-    color2: '#9C484C'
+    color2: '#9C484C',
   },
 }
 
-export const DEFAULT_IMAGES = [
+export const DEFAULT_IMAGES_EN = [
   {
     id: '1',
     source: full_selenita,
     name: 'selenita',
     caption: 'Selenita',
-    description: 'Sitio web del emprendimiento Nails by Selenita.',
+    description: 'Website for the entrepreneurship Nails by Selenita.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'SASS',
-        color: colors.sass
+        color: colors.sass,
       },
       {
         name: 'BOOTSTRAP',
-        color: colors.bootstrap
+        color: colors.bootstrap,
       },
-    ]
+    ],
   },
   {
     id: '2',
     source: full_myflights,
     name: 'myflights',
     caption: 'My Flights',
-    description: 'Sitio para consultar vuelos, hospedajes y paquetes turísticos.',
+    description: 'Site to check flights, accommodation and packages.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'SASS',
-        color: colors.sass
+        color: colors.sass,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
       {
         name: 'REACT-BOOTSTRAP',
-        color: colors.reactbootstrap
+        color: colors.reactbootstrap,
       },
-    ]
+    ],
   },
   {
     id: '3',
     source: full_mylocations,
     name: 'mylocations',
     caption: 'My Locations',
-    description: 'Aplicación para guardar ubicaciones en un mapa.',
+    description: 'Application to save locations on a map.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
       {
         name: 'REACT-BOOTSTRAP',
-        color: colors.reactbootstrap
+        color: colors.reactbootstrap,
       },
-    ]
+    ],
   },
   {
     id: '4',
     source: full_myplaylist,
     name: 'myplaylist',
     caption: 'My Playlist',
-    description: 'Aplicación para crear tu propia playlist de YouTube de una forma mas divertida.',
+    description:
+      'Application to create your own YouTube playlist in a more fun way.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
       {
         name: 'REACT-BOOTSTRAP',
-        color: colors.reactbootstrap
+        color: colors.reactbootstrap,
       },
-    ]
+    ],
   },
   {
     id: '5',
     source: full_followme,
     name: 'followme',
     caption: 'FollowMe',
-    description: 'Red social para compartir fotografías con otros usuarios.',
+    description: 'Social network to share photos with other users.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'MONGODB',
-        color: colors.mongodb
+        color: colors.mongodb,
       },
       {
         name: 'EXPRESS',
-        color: colors.express
+        color: colors.express,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
       {
         name: 'NODEJS',
-        color: colors.nodejs
+        color: colors.nodejs,
       },
-    ]
+    ],
   },
   {
     id: '6',
     source: full_portfolio,
     name: 'portfolio',
     caption: 'Portfolio',
-    description: 'Mi portfolio personal.',
+    description: 'My personal portfolio.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'SASS',
-        color: colors.sass
+        color: colors.sass,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
       {
         name: 'GATSBY',
-        color: colors.gatsby
+        color: colors.gatsby,
       },
-    ]
+    ],
   },
   {
     id: '7',
     source: full_mytasks,
     name: 'mytasks',
     caption: 'My Tasks',
-    description: 'Sitio para organizar tareas y proyectos.',
+    description: 'Site to organize tasks and projects.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'MONGODB',
-        color: colors.mongodb
+        color: colors.mongodb,
       },
       {
         name: 'EXPRESS',
-        color: colors.express
+        color: colors.express,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
       {
         name: 'NODEJS',
-        color: colors.nodejs
+        color: colors.nodejs,
       },
-    ]
+    ],
   },
   {
     id: '8',
     source: full_glosh,
     name: 'glosh',
     caption: 'Glosh',
-    description: 'Sitio para escuchar musica, con albums y playlists.',
+    description: 'Site to listen to music, with albums and playlists.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'MONGODB',
-        color: colors.mongodb
+        color: colors.mongodb,
       },
       {
         name: 'EXPRESS',
-        color: colors.express
+        color: colors.express,
       },
       {
         name: 'ANGULAR',
-        color: colors.angular
+        color: colors.angular,
       },
       {
         name: 'NODEJS',
-        color: colors.nodejs
+        color: colors.nodejs,
       },
-    ]
+    ],
   },
   {
     id: '9',
     source: full_cuantosale,
     name: 'cuantosale',
     caption: '¿Cuánto sale?',
-    description: 'Sitio que permite registrar y administrar citas.',
+    description: 'Site that allows you to register and manage appointments.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'BOOTSTRAP',
-        color: colors.bootstrap
+        color: colors.bootstrap,
       },
-    ]
+    ],
   },
   {
     id: '10',
     source: full_crushinquiz,
     name: 'crushinquiz',
     caption: 'Crushin Quiz',
-    description: 'Juego de preguntas y respuestas de fútbol.',
+    description: 'Football question and answer game.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'BOOTSTRAP',
-        color: colors.bootstrap
+        color: colors.bootstrap,
       },
       {
         name: 'MONGODB',
-        color: colors.mongodb
+        color: colors.mongodb,
       },
       {
         name: 'EXPRESS',
-        color: colors.express
+        color: colors.express,
       },
       {
         name: 'ANGULAR',
-        color: colors.angular
+        color: colors.angular,
       },
       {
         name: 'NODEJS',
-        color: colors.nodejs
+        color: colors.nodejs,
       },
-    ]
+    ],
   },
   {
     id: '11',
     source: full_cotizador,
     name: 'cotizador',
     caption: 'Cotizador',
-    description: 'Sitio que emula la cotizacion del seguro de tu auto.',
+    description: 'Site that emulates your car insurance quote.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
-    ]
+    ],
   },
   {
     id: '12',
     source: full_presupuestos,
     name: 'presupuestos',
     caption: 'Presupuestos',
-    description: 'Sitio que permite crear presupuestos y organizar gastos.',
+    description:
+      'Site that allows you to create budgets and organize expenses.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
-    ]
+    ],
   },
   {
     id: '13',
     source: full_citas,
     name: 'citas',
     caption: 'Citas',
-    description: 'Sitio que permite registrar y administrar citas.',
+    description: 'Site that allows you to register and manage appointments.',
     tools: [
       {
         name: 'HTML5',
-        color: colors.html5
+        color: colors.html5,
       },
       {
         name: 'CSS3',
-        color: colors.css3
+        color: colors.css3,
       },
       {
         name: 'JAVASCRIPT',
-        color: colors.javascript
+        color: colors.javascript,
       },
       {
         name: 'REACT',
-        color: colors.react
+        color: colors.react,
       },
-    ]
-  }
+    ],
+  },
 ]

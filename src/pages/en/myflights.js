@@ -1,12 +1,12 @@
 import React from 'react'
-import Layout from '../components/layout'
-import screenshot from '../assets/images/myflights.png'
-import html5 from '../assets/images/tools/html5.png'
-import css3 from '../assets/images/tools/css3.png'
-import javascript from '../assets/images/tools/javascript.png'
-import sass from '../assets/images/tools/sass.png'
-import react from '../assets/images/tools/react.png'
-import reactbootstrap from '../assets/images/tools/reactbootstrap.png'
+import Layout from '../../components/layout'
+import screenshot from '../../assets/images/myflights.png'
+import html5 from '../../assets/images/tools/html5.png'
+import css3 from '../../assets/images/tools/css3.png'
+import javascript from '../../assets/images/tools/javascript.png'
+import sass from '../../assets/images/tools/sass.png'
+import react from '../../assets/images/tools/react.png'
+import reactbootstrap from '../../assets/images/tools/reactbootstrap.png'
 
 const MyFlights = () => (
   <Layout>
@@ -29,9 +29,9 @@ const MyFlights = () => (
           alt="My Flights screenshot"
         ></img>
         <p className="Project__Description">
-          Sitio web que permite consultar vuelos, hospedajes y paquetes
-          turísticos. Para realizar dicha búsqueda, consulto la API de ciudades
-          y vuelos de SkyScanner, y de hoteles de ApiDojo.
+          Website that allows you to check flights, accommodations and packages.
+          To carry out this search, I consume the API of cities and flights from
+          SkyScanner, and an hotels API from ApiDojo.
         </p>
         <div className="Project__Tools">
           <img src={html5} className="Project__Tool" alt="HTML5"></img>

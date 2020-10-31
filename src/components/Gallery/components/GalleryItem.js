@@ -1,11 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
 const GalleryItem = ({ id, source, name, caption, description, tools }) => {
   return (
     <article key={id} className="Gallery__Item">
       <div>
-        <h3><a href={name}>{caption}</a></h3>
+        <h3>
+          <Link to={`${name}`}>{caption}</Link>
+        </h3>
         {tools && tools.length > 0 && (
           <div className="Gallery__Item__Tools">
             {tools.map((tool, index) => (
@@ -24,7 +27,7 @@ const GalleryItem = ({ id, source, name, caption, description, tools }) => {
         )}
         <p>{description}</p>
       </div>
-      <img src={source} alt={caption}/>
+      <img src={source} alt={caption} />
     </article>
   )
 }

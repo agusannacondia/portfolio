@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout'
-import screenshot from '../assets/images/cuantosale.png'
-import html5 from '../assets/images/tools/html5.png'
-import css3 from '../assets/images/tools/css3.png'
-import javascript from '../assets/images/tools/javascript.png'
-import bootstrap from '../assets/images/tools/bootstrap.png'
+import Layout from '../../components/layout'
+import screenshot from '../../assets/images/cuantosale.png'
+import html5 from '../../assets/images/tools/html5.png'
+import css3 from '../../assets/images/tools/css3.png'
+import javascript from '../../assets/images/tools/javascript.png'
+import bootstrap from '../../assets/images/tools/bootstrap.png'
 
 const CuantoSale = () => (
   <Layout>
@@ -27,11 +27,10 @@ const CuantoSale = () => (
           alt="Cuanto sale screenshot"
         ></img>
         <p className="Project__Description">
-          Fue de mis primeros proyectos como desarrollador frontend. Es simple:
-          una web para saber el precio promedio de distintas cosas. Para
-          resolverlo, consulto la API de MercadoLibre y hago un promedio de los
-          resultados obtenidos. Esta hecha con HTML, CSS, Javascript y un
-          template de Bootstrap.
+          It was one of my first projects as a frontend developer. It is simple:
+          a website to know the average price of different things. To solve it,
+          I use the MercadoLibre API and I average the results obtained. It is
+          made with HTML, CSS, Javascript and a Bootstrap template.
         </p>
         <div className="Project__Tools">
           <img src={html5} className="Project__Tool" alt="HTML5"></img>

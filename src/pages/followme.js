@@ -12,19 +12,23 @@ import react from '../assets/images/tools/react.png'
 const FollowMe = () => (
   <Layout>
     <div id="main" className="Project">
-      <h2 className="Project__Title noselect">Follow Me</h2>
+      <h2 className="Project__Title noselect">FollowMe</h2>
       <span className="Project__Button noselect">
-        <a href="https://selenita.ar" target="__blank">
+        <a href="https://followme.annacondia.ar" target="__blank">
           Live Demo
         </a>
       </span>
       <span className="Project__Button noselect">
-        <a href="https://github.com/agusannacondia/selenita" target="__blank">
+        <a href="https://github.com/agusannacondia/followme" target="__blank">
           View on GitHub
         </a>
       </span>
       <div className="Project__Body">
-        <img src={screenshot} className="Project__Image"></img>
+        <img
+          src={screenshot}
+          className="Project__Image"
+          alt="FollowMe screenshot"
+        ></img>
         <p className="Project__Description">
           Red social similar a Instagram hecha con React. El backend esta hecho
           con NodeJS, Express y los datos persisten en MongoDB. El frontend es
@@ -32,13 +36,17 @@ const FollowMe = () => (
           API Context. Esta deployado en Netlify.
         </p>
         <div className="Project__Tools">
-          <img src={html5} className="Project__Tool"></img>
-          <img src={css3} className="Project__Tool"></img>
-          <img src={javascript} className="Project__Tool"></img>
-          <img src={mongodb} className="Project__Tool"></img>
-          <img src={express} className="Project__Tool"></img>
-          <img src={react} className="Project__Tool"></img>
-          <img src={nodejs} className="Project__Tool"></img>
+          <img src={html5} className="Project__Tool" alt="HTML5"></img>
+          <img src={css3} className="Project__Tool" alt="CSS3"></img>
+          <img
+            src={javascript}
+            className="Project__Tool"
+            alt="JavaScript"
+          ></img>
+          <img src={mongodb} className="Project__Tool" alt="MongoDB"></img>
+          <img src={express} className="Project__Tool" alt="Express"></img>
+          <img src={react} className="Project__Tool" alt="React"></img>
+          <img src={nodejs} className="Project__Tool" alt="NodeJS"></img>
         </div>
       </div>
     </div>

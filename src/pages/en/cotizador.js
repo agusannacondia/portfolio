@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 
-const Presupuestos = () => (
+const Cotizador = () => (
   <Layout>
     <div id="main" className="Project">
-      <h2 className="Project__Title noselect">Presupuestos</h2>
+      <h2 className="Project__Title noselect">Cotizador</h2>
       {/* <span className="Project__Button noselect">
         <a href="https://myplaylist.annacondia.ar" target="__blank">
           Live Demo
@@ -19,10 +19,10 @@ const Presupuestos = () => (
         </a>
       </span> */}
       <div className="Project__Body">
-        <p className="Project__Description">Sitio en construcción.</p>
+        <p className="Project__Description">Work in progress.</p>
       </div>
     </div>
   </Layout>
 )
 
-export default Presupuestos
+export default Cotizador

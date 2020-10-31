@@ -1,14 +1,14 @@
 import React from 'react'
-import Layout from '../components/layout'
-import screenshot from '../assets/images/mytasks.png'
-import html5 from '../assets/images/tools/html5.png'
-import css3 from '../assets/images/tools/css3.png'
-import javascript from '../assets/images/tools/javascript.png'
+import Layout from '../../components/layout'
+import screenshot from '../../assets/images/mytasks.png'
+import html5 from '../../assets/images/tools/html5.png'
+import css3 from '../../assets/images/tools/css3.png'
+import javascript from '../../assets/images/tools/javascript.png'
 
-import express from '../assets/images/tools/express.png'
-import mongodb from '../assets/images/tools/mongodb.png'
-import nodejs from '../assets/images/tools/nodejs.png'
-import react from '../assets/images/tools/react.png'
+import express from '../../assets/images/tools/express.png'
+import mongodb from '../../assets/images/tools/mongodb.png'
+import nodejs from '../../assets/images/tools/nodejs.png'
+import react from '../../assets/images/tools/react.png'
 
 const MyTasks = () => (
   <Layout>
@@ -28,12 +28,12 @@ const MyTasks = () => (
         <img
           src={screenshot}
           className="Project__Image"
-          alt="My Tasks screenshot"
+          alt="Portfolio screenshot"
         ></img>
         <p className="Project__Description">
-          Aplicación para organizar tareas y proyectos. Esta hecha con React, el
-          back-end en NodeJS y el deploy en Netlify. Las tareas y proyetcos
-          quedan guardadas en una base de datos no SQL, con MongoDB.
+          Application to organize tasks and projects. It is made with React, the
+          back-end in NodeJS and the deploy in Netlify. Tasks and projects they
+          are stored in a non-SQL database, with MongoDB.
         </p>
         <div className="Project__Tools">
           <img src={html5} className="Project__Tool" alt="HTML5"></img>

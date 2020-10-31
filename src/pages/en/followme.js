@@ -1,26 +1,25 @@
 import React from 'react'
-import Layout from '../components/layout'
-import screenshot from '../assets/images/mytasks.png'
-import html5 from '../assets/images/tools/html5.png'
-import css3 from '../assets/images/tools/css3.png'
-import javascript from '../assets/images/tools/javascript.png'
+import Layout from '../../components/layout'
+import screenshot from '../../assets/images/followme.png'
+import html5 from '../../assets/images/tools/html5.png'
+import css3 from '../../assets/images/tools/css3.png'
+import javascript from '../../assets/images/tools/javascript.png'
+import express from '../../assets/images/tools/express.png'
+import mongodb from '../../assets/images/tools/mongodb.png'
+import nodejs from '../../assets/images/tools/nodejs.png'
+import react from '../../assets/images/tools/react.png'
 
-import express from '../assets/images/tools/express.png'
-import mongodb from '../assets/images/tools/mongodb.png'
-import nodejs from '../assets/images/tools/nodejs.png'
-import react from '../assets/images/tools/react.png'
-
-const MyTasks = () => (
+const FollowMe = () => (
   <Layout>
     <div id="main" className="Project">
-      <h2 className="Project__Title noselect">My Tasks</h2>
+      <h2 className="Project__Title noselect">FollowMe</h2>
       <span className="Project__Button noselect">
-        <a href="https://mytasks.annacondia.ar" target="__blank">
+        <a href="https://followme.annacondia.ar" target="__blank">
           Live Demo
         </a>
       </span>
       <span className="Project__Button noselect">
-        <a href="https://github.com/agusannacondia/mytasks" target="__blank">
+        <a href="https://github.com/agusannacondia/followme" target="__blank">
           View on GitHub
         </a>
       </span>
@@ -28,12 +27,13 @@ const MyTasks = () => (
         <img
           src={screenshot}
           className="Project__Image"
-          alt="My Tasks screenshot"
+          alt="FollowMe screenshot"
         ></img>
         <p className="Project__Description">
-          Aplicación para organizar tareas y proyectos. Esta hecha con React, el
-          back-end en NodeJS y el deploy en Netlify. Las tareas y proyetcos
-          quedan guardadas en una base de datos no SQL, con MongoDB.
+          Social network similar to Instagram. It was made with React. The
+          backend is done with NodeJS, Express and the data persists in MongoDB.
+          The frontend is React and pure CSS. To control the state of the
+          application I use React API context. It was deployed on Netlify.
         </p>
         <div className="Project__Tools">
           <img src={html5} className="Project__Tool" alt="HTML5"></img>
@@ -53,4 +53,4 @@ const MyTasks = () => (
   </Layout>
 )
 
-export default MyTasks
+export default FollowMe
